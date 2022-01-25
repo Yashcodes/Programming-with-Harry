@@ -8,6 +8,7 @@ private:
 
 public:
     int d, e;
+   
 
     void setData(int a1, int b1, int c1); // Declaration
     void getData()
@@ -29,7 +30,7 @@ void Employee :: setData(int a1, int b1, int c1)
 int main()
 {
     Employee yash;
-    // yash.a = 6; --> This will throq error as "a" is private
+    // yash.a = 6; --> This will throw error as "a" is private
     yash.d = 4;
     yash.e = 5;
     yash.setData(1, 2, 3);
