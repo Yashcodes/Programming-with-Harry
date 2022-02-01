@@ -70,12 +70,13 @@ void binary ::ones_complement(void)
 }
 
 void binary ::display(void)
-{
+{ 
     cout << "Displaying your binary number" << endl;
     for (int i = 0; i < s.length(); i++)
     {
         cout << s.at(i);
     }
+    // cout << s;
 }
 
 int main()
