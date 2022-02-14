@@ -6,7 +6,7 @@ console.log("This is tutorial on events");
 // btn.addEventListener('mousedown', func3);
 
 // function func1(e){
-//     // console.log('Thanks', e);
+//     console.log('Thanks', e);
 //     e.preventDefault();
 // }
 
@@ -28,8 +28,8 @@ console.log("This is tutorial on events");
 //     console.log("You exited no!!");
 // })
 
-document.querySelector(".container").addEventListener('mousemove', function(e){
-    console.log(e.offsetX, e.offsetY);
-    document.body.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},154)`
-    console.log("You triggered mouse move event!!");
-})
+// document.querySelector(".container").addEventListener('mousemove', function(e){
+//     console.log(e.offsetX, e.offsetY);
+//     document.body.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},154)`
+//     console.log("You triggered mouse move event!!");
+// })
